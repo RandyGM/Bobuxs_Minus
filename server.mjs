@@ -53,7 +53,7 @@ app.post('/api/insert', async (req, res) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'api-key': process.env.MONGODB_API_KEY
+                'api-key': 'KI8H0DBcDC6RY19f1xttZK95Z5G0kSruYROkhmCAW0UXXjLxWEy0eINJobXzTTP2'
             },
             body: JSON.stringify({
                 dataSource: 'database',
