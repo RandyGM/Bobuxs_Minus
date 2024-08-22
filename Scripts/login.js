@@ -8,7 +8,7 @@ document.getElementById('login-form').addEventListener('submit', async (event) =
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'api-key': 'process.env.MONGODB_API_KEY'
+            'api-key': process.env.MONGODB_API_KEY
         },
         body: JSON.stringify({ name: username, password: password })
     });
