@@ -14,7 +14,7 @@ document.getElementById('dataForm').addEventListener('submit', async function (e
     };
     
     try {
-        const response = await fetch('/api/insert', {
+        const response = await fetch('MONGODB_INSERT_URL', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
