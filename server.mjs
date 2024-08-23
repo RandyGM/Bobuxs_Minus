@@ -39,6 +39,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'Scripts', 'tickes_pruchase.js'));
 
     //Extra
+    res.sendFile(path.resolve(__dirname, 'Img'));
     res.sendFile(path.resolve(__dirname, 'style.css'));
     res.sendFile(path.resolve(__dirname, 'server.mjs'));
     
